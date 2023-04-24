@@ -2,6 +2,6 @@
 
 import requests as re
 
-response = re.get('https://fireliker.com/login.php')
+response = re.get('https://zefoy.com/')
 lol = response.text
 print(lol)
