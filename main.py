@@ -125,11 +125,9 @@ class menu:
 	print('[bold green]1.open\n2.exit')
 	lol=input('choose:')
 	if lol == ['1']:
-		try:
-		except:
+		from assets import json
 	elif lol == ['2']:
-		try:
-		except:
+		exit()
 
 			
 if __name__=='__main__':
