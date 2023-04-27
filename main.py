@@ -120,30 +120,29 @@ def banner():
 
 balmond = O+"["+J+"•"+O+"]"
 
-def login():
+class menu:
 	banner()
-	sky = '# MASUKAN TOKEN FACEBOOK,SARAN PAKAI AKUN TUMBAL'
-	sky2 = mark(sky, style='green')
-	sol().print(sky2, style='cyan')
-	panda = input(M+'['+hh+'•'+M+'] Token Fb EAA : %s'%(k))
-	akun=open('.token.x','w').write(panda)
-	try:
-		tes = requests.get('https://graph.facebook.com/me?access_token='+panda)
-		tes3 = json.loads(tes.text)['id']
-		sue = '# nice Login berhasil'
-		suu = mark(sue, style='green')
-		sol().print(suu, style='cyan')
-		time.sleep(2)
-		menu()
-	except KeyError:
-		sue = '# Login Gagal, Cek token'
-		suu = mark(sue, style='red')
-		sol().print(suu, style='cyan')
-		time.sleep(2)
-		os.system('clear')
-		login()
-	except requests.exceptions.ConnectionError:
-		li = '# KONEKSI INTERNET BERMASALAH, PERIKSA & COBA LAGI'
-		lo = mark(li, style='red')
-		sol().print(lo, style='cyan')
-		menu()
+	print('[bold green]1.open\n2.exit')
+	lol=input('choose:')
+	if lol == ['1']:
+		try:
+		except:
+	elif lol == ['2']:
+		try:
+		except:
+
+			
+if __name__=='__main__':
+	menu()
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
