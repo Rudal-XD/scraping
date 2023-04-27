@@ -122,7 +122,8 @@ balmond = O+"["+J+"•"+O+"]"
 
 class menu:
 	banner()
-	print('[bold green]1.open\n2.exit')
+	print('1.open\n2.exit')
+	print()
 	lol=input('choose:')
 	if lol == ['1']:
 		from assets import json
