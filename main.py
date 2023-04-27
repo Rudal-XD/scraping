@@ -25,9 +25,9 @@ def banner():
 
 #login
 
-balmond = O+"["+J+"•"+O+"]"
-
 class menu:
+	back()
+	clear()
 	banner()
 	print('1.open\n2.exit')
 	print()
