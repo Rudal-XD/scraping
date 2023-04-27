@@ -4,7 +4,8 @@ os.system('clear')
 
 def back():
 	os.system('git pull')
-os.system('clear')
+def bersih():
+	os.system('clear')
 
 def banner():
 	print('''
@@ -27,7 +28,7 @@ def banner():
 
 class menu:
 	back()
-	clear()
+	bersih()
 	banner()
 	print('1.open\n2.exit')
 	print()
