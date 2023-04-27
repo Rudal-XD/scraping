@@ -33,9 +33,9 @@ class menu:
 	print('1.open\n2.exit')
 	print()
 	lol=input('choose:')
-	if lol == ['1']:
+	if lol in == ['1']:
 		from assets import json
-	elif lol == ['2']:
+	elif lol in == ['2']:
 		exit()
 
 			
