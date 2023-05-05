@@ -1,7 +1,5 @@
-# get html to wep
-
-import requests as re
-
-response=re.get('https://fireliker.com/')
-html=response.text
-print(html)
+import requests
+from urllib.request import urlopen
+url='https://fireliker.com'
+response=urlopen(url)
+print(response.read())
